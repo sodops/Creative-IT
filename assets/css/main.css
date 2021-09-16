@@ -146,7 +146,7 @@ a.border-button:hover {
 	width: 60px;
 	height: 60px;
 	-webkit-animation: jumper 1s 0s linear infinite;
-	animation: jumper 3s 0s linear infinite;
+	animation: jumper 1s 0s linear infinite;
 }
 
 #preloader .jumper>div:nth-child(2) {
