@@ -335,9 +335,10 @@
             <form id="contact" action="" method="post">
               <div class="row">
                 <div class="col-lg-4 col-md-12 col-sm-12">
-                  <fieldset>
+                  <form role="form" method="post" id="reused_form">
+                    <fieldset>
                     <input name="name" type="text" class="form-control" id="name" placeholder="Full Name" required="">
-                  </fieldset>
+                </fieldset>
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12">
                   <fieldset>
@@ -361,6 +362,7 @@
                   <fieldset>
                     <button type="submit" id="form-submit" class="border-button">Send Message</button>
                   </fieldset>
+                  </form>
                 </div>
               </div>
             </form>
@@ -497,7 +499,7 @@
   <script src="assets/js/owl.js"></script>
   <script src="assets/js/slick.js"></script>
   <script src="assets/js/accordions.js"></script>
-
+<script src="form.js"></script>
   <script language="text/Javascript">
     cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
     function clearField(t) { //declaring the array outside of the
