@@ -1,2 +1,2 @@
 # MyBusinessSite
-this is mine business site
+This is mine business site
