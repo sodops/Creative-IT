@@ -1,4 +1,5 @@
-<img src="logo.svg"/>
+<img src="logo.svg"></img>
 # MyBusinessSite-This is mine business site 
->  visit my site - https://creative-it.ml
-
+>Visit My Site - https://creative-it.ml
+<hr>
+<i> 👨‍💻IT development company founded by Karimjanov Sodiq</i>
