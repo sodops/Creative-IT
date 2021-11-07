@@ -428,17 +428,17 @@ header .navbar {
 }
 
 .Modern-Slider .item-1 .img-fill {
-	background-image: url(../images/home.jpg);
+	background-image: url(../images/home.png);
 
 }
 
 .Modern-Slider .item-2 .img-fill {
-	background-image: url(../images/service_03_shad.jpg);
+	background-image: url(../images/service_03.jpg);
 
 }
 
 .Modern-Slider .item-3 .img-fill {
-	background-image: url(../images/service_02_shad.jpg);
+	background-image: url(../images/service_02.jpg);
 
 }
 
@@ -509,7 +509,7 @@ ul.slick-dots {
 	font-size: 44px;
 	font-weight: 700;
 	letter-spacing: 2.5px;
-	color: #FFF;
+	color: #ffffff;
 	overflow: hidden;
 	animation: fadeOutLeft 1s both;
 }
@@ -646,6 +646,36 @@ ul.slick-dots {
 }
 
 
+
+
+/* Request Form */
+
+.request-form {
+	background-color: #000000;
+	padding: 40px 0px;
+	color: #fff;
+}
+
+.request-form h4 {
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.request-form span {
+	font-size: 15px;
+	font-weight: 400;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.request-form a.border-button {
+	margin-top: 12px;
+	float: right;
+}
+
+
+
+
 /* Services */
 
 .services {
@@ -676,6 +706,7 @@ ul.slick-dots {
 
 
 
+/* Fun Facts */
 
 .fun-facts {
 	margin-top: 140px;
