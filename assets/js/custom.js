@@ -144,3 +144,37 @@ jQuery( document ).ready(function( $ ) {
     })
  
 });
+
+// Contact Us form submission
+document.addEventListener('DOMContentLoaded', function() {
+  var form = document.getElementById('contactForm');
+  if (form) {
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+
+      // Ma'lumotlarni olish
+      var name = document.getElementById('name').value.trim();
+      var email = document.getElementById('email').value.trim();
+      var message = document.getElementById('message').value.trim();
+
+      // Oddiy tekshiruv
+      if (!name || !email || !message) {
+        alert('Iltimos, barcha maydonlarni to‘ldiring.');
+        return;
+      }
+
+      // Email tekshiruv (oddiy)
+      var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!emailPattern.test(email)) {
+        alert('Iltimos, to‘g‘ri email kiriting.');
+        return;
+      }
+
+      // Muvaffaqiyatli yuborildi
+      alert('Xabaringiz muvaffaqiyatli yuborildi!');
+
+      // Formani tozalash
+      form.reset();
+    });
+  }
+});
